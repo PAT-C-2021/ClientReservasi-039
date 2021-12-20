@@ -1,0 +1,10 @@
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\bin\Debug\ClientReservasi-20190140039.exe.config
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\bin\Debug\ClientReservasi-20190140039.exe
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\bin\Debug\ClientReservasi-20190140039.pdb
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.csproj.AssemblyReference.cache
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi_20190140039.Form1.resources
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi_20190140039.Properties.Resources.resources
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.csproj.GenerateResource.cache
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.csproj.CoreCompileInputs.cache
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.exe
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.pdb
