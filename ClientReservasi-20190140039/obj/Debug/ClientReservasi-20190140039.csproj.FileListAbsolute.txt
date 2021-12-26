@@ -8,3 +8,5 @@ C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-2019014
 C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.csproj.CoreCompileInputs.cache
 C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.exe
 C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi-20190140039.pdb
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi_20190140039.Register.resources
+C:\Users\Yapart\source\repos\ClientReservasi-20190140039\ClientReservasi-20190140039\obj\Debug\ClientReservasi_20190140039.Login.resources

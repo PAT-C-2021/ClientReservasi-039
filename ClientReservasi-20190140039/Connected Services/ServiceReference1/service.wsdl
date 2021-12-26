@@ -7,18 +7,6 @@
       <xsd:import namespace="http://schemas.datacontract.org/2004/07/ServiceReservasi_039" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IService1_GetData_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetData" />
-  </wsdl:message>
-  <wsdl:message name="IService1_GetData_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataResponse" />
-  </wsdl:message>
-  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
-  </wsdl:message>
-  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
-    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
-  </wsdl:message>
   <wsdl:message name="IService1_Pemesanann_InputMessage">
     <wsdl:part name="parameters" element="tns:Pemesanann" />
   </wsdl:message>
@@ -55,15 +43,37 @@
   <wsdl:message name="IService1_Pemesanan_OutputMessage">
     <wsdl:part name="parameters" element="tns:PemesananResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRegister" />
+  </wsdl:message>
+  <wsdl:message name="IService1_UpdateRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteRegister_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegister" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteRegister_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DataRegist_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataRegist" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DataRegist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataRegistResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
-    <wsdl:operation name="GetData">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="GetDataUsingDataContract">
-      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
-    </wsdl:operation>
     <wsdl:operation name="Pemesanann">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/Pemesanann" message="tns:IService1_Pemesanann_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/PemesanannResponse" message="tns:IService1_Pemesanann_OutputMessage" />
@@ -88,27 +98,29 @@
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/Pemesanan" message="tns:IService1_Pemesanan_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/PemesananResponse" message="tns:IService1_Pemesanan_OutputMessage" />
     </wsdl:operation>
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Login" message="tns:IService1_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/LoginResponse" message="tns:IService1_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Register" message="tns:IService1_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/RegisterResponse" message="tns:IService1_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/UpdateRegister" message="tns:IService1_UpdateRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/UpdateRegisterResponse" message="tns:IService1_UpdateRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegister">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteRegister" message="tns:IService1_DeleteRegister_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteRegisterResponse" message="tns:IService1_DeleteRegister_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataRegist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DataRegist" message="tns:IService1_DataRegist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DataRegistResponse" message="tns:IService1_DataRegist_OutputMessage" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="EndpointService" type="tns:IService1">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="GetData">
-      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="GetDataUsingDataContract">
-      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
     <wsdl:operation name="Pemesanann">
       <soap:operation soapAction="http://tempuri.org/IService1/Pemesanann" style="document" />
       <wsdl:input>
@@ -156,6 +168,51 @@
     </wsdl:operation>
     <wsdl:operation name="Pemesanan">
       <soap:operation soapAction="http://tempuri.org/IService1/Pemesanan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IService1/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/IService1/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRegister">
+      <soap:operation soapAction="http://tempuri.org/IService1/UpdateRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegister">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteRegister" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataRegist">
+      <soap:operation soapAction="http://tempuri.org/IService1/DataRegist" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

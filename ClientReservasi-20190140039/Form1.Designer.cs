@@ -219,6 +219,7 @@ namespace ClientReservasi_20190140039
             this.label1.Size = new System.Drawing.Size(83, 19);
             this.label1.TabIndex = 16;
             this.label1.Text = "ID Reservasi";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
